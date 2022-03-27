@@ -59,18 +59,18 @@
     
     h3 {
         font-family: 'Open Sans', sans-serif;
-        padding: 7% 3% 0;
+        padding: 7% 3% 5%;
     }
     
     p {
         font-family: 'Open Sans', sans-serif;
-        padding: 4%;
+        padding: 0 3%;
     }
     
     .lobby {
         width: 100%;
         justify-self: center;
-        padding-top: 20%;
+        padding-top: 25%;
     }
     /* hotel info section */
     
@@ -162,7 +162,7 @@
         padding-left: 7%;
     }
     
-    @media (max-width: 1028px) {
+    @media (max-width: 700px) {
         .res-card {
             position: static;
             flex-grow: 2;
