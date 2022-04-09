@@ -3,12 +3,28 @@
         padding: 0;
         list-style: none;
         text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
     }
-    /* navigation section */
+    
+    h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 4rem;
+        letter-spacing: .25rem;
+    }
+    
+    h3 {
+        padding: 7% 3% 5%;
+    }
+    
+    p {
+        padding: 0 3%;
+    }
     
     .nav-item {
         color: black;
-        font-family: 'Open Sans', sans-serif;
         padding: 0 20px;
         font-size: 1.25rem;
     }
@@ -20,25 +36,14 @@
         letter-spacing: .25rem;
         margin: 10px
     }
-    /* hotel name section */
     
     .hotel-name {
         font-family: 'Libre Baskerville', serif;
-        text-align: center;
         margin-top: 4%;
     }
     
-    h1 {
+    .name {
         font-family: 'Libre Baskerville', serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 4rem;
-        letter-spacing: .25rem;
-    }
-    
-    .hotel-name h2 {
-        font-family: 'Libre Baskerville', serif;
-        text-align: center;
         font-weight: 100;
         font-size: 1rem;
         letter-spacing: .5rem;
@@ -55,16 +60,7 @@
     #welcome {
         background-color: #F7ECDE;
         margin: 0% 6%;
-    }
-    
-    h3 {
-        font-family: 'Open Sans', sans-serif;
-        padding: 7% 3% 5%;
-    }
-    
-    p {
-        font-family: 'Open Sans', sans-serif;
-        padding: 0 3%;
+        text-align: left;
     }
     
     .lobby {
@@ -78,7 +74,7 @@
         margin: 0% 6%;
     }
     
-    .hotel {
+    .htl {
         background-color: #EEEEEE;
         width: 100%;
         height: 100%;
@@ -99,11 +95,11 @@
     }
     /* hotel other Section */
     
-    #hotel-oth {
+    #hotel-other {
         margin: 0% 6%;
     }
     
-    .hotel-other {
+    .hotel-oth {
         background-color: #EEEEEE;
         width: 100%;
         height: 100%;
@@ -145,8 +141,7 @@
         bottom: 5%;
     }
     
-    h2 {
-        font-family: 'Open Sans', sans-serif;
+    .res {
         padding: 6% 7%;
         font-size: 2rem;
         font-weight: 400;
@@ -154,12 +149,30 @@
         text-align: left;
     }
     
-    h4 {
-        font-family: 'Open Sans', sans-serif;
+    .address {
         font-weight: 100;
-        font-size: 1.25rem;
+        font-size: 1rem;
         letter-spacing: .125rem;
         padding-left: 7%;
+    }
+    /* Footer section */
+    
+    #footer {
+        background-color: #EEEEEE;
+        height: 200px;
+        padding: 50px 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: darkgray;
+        padding: 0px 15px;
+    }
+    
+    .copyright {
+        color: darkgray;
+        padding: 30px;
     }
     
     @media (max-width: 700px) {
@@ -167,35 +180,10 @@
             position: static;
             flex-grow: 2;
         }
-        h2 {
+        .res {
             font-size: 1.5rem;
         }
-        h4 {
+        .address {
             font-size: 1rem;
         }
-    }
-    /* Footer section */
-    
-    #footer {
-        background-color: #EEEEEE;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        height: 200px;
-        padding: 50px 0px;
-    }
-    
-    #footer a {
-        text-decoration: none;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.25rem;
-        color: darkgray;
-        padding: 0px 15px;
-    }
-    
-    .copyright {
-        text-align: center;
-        font-family: 'Cormorant Garamond', serif;
-        color: darkgray;
-        padding: 30px;
     }
